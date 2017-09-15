@@ -1,0 +1,147 @@
+/*Shared Styles*/
+html {
+	font-size: 14px;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+h2 {
+	font-size: 1.7rem;
+	font-weight: bold;
+}
+h3 {
+	font-size: 1.3rem;
+	font-weight: bold;
+}
+.image-container img {
+  	opacity: 0.7;
+  	transition: transform 500ms;
+}
+.image-container img:hover {
+	opacity: 1;
+	transform: scale(1.3);
+}
+.image-container {
+  overflow: hidden;
+}
+.container h2 {
+	margin-bottom: 20px;
+}
+
+/*Header: Logo and Navigation*/
+.navbar-default .navbar-nav > .active > a {
+	background-color: transparent;
+	color: #399bd1;
+}
+.navbar-default .navbar-nav > .active > a:hover {
+	background-color: transparent;
+	color: #399bd1;
+}
+.navbar-default .navbar-nav {
+	font-weight: 600;
+	font-size: 1.1rem;
+}
+
+/*Jumbotron Section*/
+.jumbotron-bike {
+	background-image: url("../images/jumbotron-bike.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 11.85rem 0;
+}
+.jumbotron-beer {
+	background-image: url("../images/jumbotron-beer.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 11.85rem 0;
+}
+.jumbotron-flowers {
+	background-image: url("../images/jumbotron-flowers.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 11.85rem 0;
+}
+.jumbotron-duffel {
+	background-image: url("../images/jumbotron-duffel.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 11.85rem 0;
+}
+.jumbotron {
+	color: white;
+	text-align: center;
+	text-shadow: 1px 1px 2px black;
+}
+.jumbotron h1 {
+	font-family: 'Monoton', cursive;
+	font-size: 7.1rem;
+	text-transform: uppercase;
+}
+.jumbotron-subtitle {
+	max-width: 51.3rem;
+	margin: auto;
+}
+.jumbotron-btn {
+	width: 11.4rem;
+	margin-top: 2.8rem;
+	padding: 1.3rem 0;
+	background-color: #399bd1;
+}
+.jumbotron-btn:hover {
+	box-shadow: 0 0 12 rgba(0, 0, 0, 0.9);
+}
+.jumbotron-btn:active {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}
+
+@media only screen and (max-width: 616px) {
+	.jumbotron h1 {
+		font-size: 5rem;
+	}
+}
+@media only screen and (max-width: 438px) {
+	.jumbotron h1 {
+		font-size: 4.5rem;
+	}
+}
+
+/*Featured Project Section*/
+.documentary h3 {
+	color: #000;
+}
+.categories h3 {
+	color: #399bd1;
+}
+.categories li {
+	line-height: 1.4rem;
+	color: rgba(0, 0, 0, 0.7);
+}
+/*Projects Section*/
+.projects {
+	margin-bottom: 5.85rem;
+}
+
+/*Having Trouble Section*/
+.footer {
+	background-color: #f3f3f3;
+	padding: 5.2rem 0;
+	text-align: center;
+}
+.footer h1 {
+	font-size: 2.5rem;
+	font-weight: bold;
+	margin-bottom: 1.4rem;
+}
+.footer p {
+  max-width: 42rem;
+  margin: auto;
+  padding-bottom: 1.4rem;
+}
+.learn-btn {
+	width: 11.4rem;
+	padding: 1.3rem 0;
+}
